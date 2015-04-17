@@ -9,16 +9,16 @@ click [there](https://rubygems.org/gems/cc_hola) to fetch download url
 
 ### Method
 - #### Fetch all controller names which under the controller file
-```
+``` ruby
 	CcHola.controllers
 ```
 		
 - #### Fetch actions which belong to ApplicationController and the controller which inherited from the ApplicationController
-```
+``` ruby
 	CcHola.actions
 ```
 - #### Fetch the controller names and action names
-```
+``` ruby
 	CcHola.controllers_actions
 ```
 - #### Fetch the notes which marked by TODO、FIXME、OPTIMIZE、HACK、REVIEW
